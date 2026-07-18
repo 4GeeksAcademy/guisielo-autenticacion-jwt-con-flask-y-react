@@ -55,3 +55,21 @@
     color: #0d6efd;
     text-decoration: underline;
 }
+
+/*BOTON DE INICIO DE SESION*/
+.btn-login {
+  display: inline-flex;
+  background-color: white;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-login:hover {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}

@@ -14,6 +14,8 @@ export const Login = () => {
         password: ""
     });
 
+	console.log(user)
+
     const login = async () => {
         setLoading(true);
 
@@ -46,9 +48,9 @@ export const Login = () => {
                 return;
             }
 
-            localStorage.setItem("token", data.access_token);
+            sessionStorage.setItem("token", data.access_token);
 
-            localStorage.setItem("user", JSON.stringify(data.user));
+            sessionStorage.setItem("user", JSON.stringify(data.user));
 
             dispatch({
                 type: "set_user",
@@ -75,6 +77,8 @@ export const Login = () => {
 
         }
     };
+
+	console.log(user)
 
     return (
         <div className="row row-login">

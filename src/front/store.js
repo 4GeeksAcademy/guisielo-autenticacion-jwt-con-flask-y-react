@@ -2,8 +2,8 @@ export const initialStore = () => {
   return {
     message: null,
 
-    user: JSON.parse(localStorage.getItem("user")) || null,
-    token: localStorage.getItem("token") || null,
+    user: JSON.parse(sessionStorage.getItem("user")) || null,
+    token: sessionStorage.getItem("token") || null,
 
     todos: [
       {

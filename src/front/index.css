@@ -1,0 +1,57 @@
+/* PÁGINA DE SIGNUP */
+
+.row-signup {
+  min-height: 86vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #E7EEF7;
+}
+
+.signup-form{
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.signup-form h2{
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+
+/* PÁGINA DE LOGIN */
+.row-login {
+  min-height: 85vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #E7EEF7;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.login-form h2{
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+.small-links a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #6c757d;
+    transition: 0.2s ease;
+}
+
+.small-links a:hover{
+    color: #0d6efd;
+    text-decoration: underline;
+}
